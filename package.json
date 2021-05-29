@@ -1,0 +1,19 @@
+{
+  "name": "layout",
+  "version": "1.0.0",
+  "description": "<!-- Please update value in the {}  -->",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gopalkrishna-art/Layout.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gopalkrishna-art/Layout/issues"
+  },
+  "homepage": "https://github.com/Gopalkrishna-art/Layout#readme"
+}

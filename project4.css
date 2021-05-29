@@ -1,0 +1,250 @@
+.body {
+    font-family: 'Poppins', sans-serif;
+}
+    .all{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 799px;
+    width: 60%;
+    margin: 50px auto 0px auto;
+   background-color: rgb(204, 199, 199);
+   }
+    .container1 {
+    display: flex;
+   margin-left: 10px;
+    height: 311px;
+    width: 96%;
+   
+   background-color:  white;
+        }
+img{
+    border-radius: 12px;
+}
+.right{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    background-color:  white;
+height: 300px;
+width: 982px;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.cola{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 415px;
+    height: 1139px;
+    background-color: rgb(204, 199, 199);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.colb{
+    width: 592px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 1139px;
+    background-color:rgb(204, 199, 199);
+}
+.front{
+    width: 415px;
+height: 303px;
+left: 197px;
+background:  white;
+border-radius: 12px;
+margin-bottom: 15px;
+}
+.file{
+    margin-top: 20px;
+}
+.hobbies{
+    display: flex;
+   
+    flex-direction: column;
+    width: 415px;
+height: 836px;
+background: white;
+border-radius: 12px;
+}
+.box{
+    
+    margin: 21px;
+
+border-radius: 12px;
+}
+.organise{
+    flex-direction: row;
+    margin-bottom: 15px;
+    width: 592px;
+height: 656px;
+background-color:  white;
+flex-grow: 1;
+background:  white;
+border-radius: 12px;
+}
+.organise h3{
+    position: relative;
+    top: 119px;
+    
+}
+.photo img{
+    float: right;
+}
+.para{
+    position: relative;
+background-color:  white;
+Width :540px;
+height :120px;
+top :419px;
+left :23px;
+}
+.c{
+    width: 500px;
+}
+
+.experiences{
+    display: flex;
+    flex-direction: column;
+    width: 592px;
+height: 482px;
+background:  white;
+border-radius: 12px;
+}
+.twoin{
+    display: flex;
+   flex-direction: row;
+    width: 592px;
+    background-color:  white;
+height: 241px;
+}
+.adidos{
+    margin: 70px;
+    width: 119.25px;
+    background-color:  white;
+height: 84px;
+}
+.adicontent{
+    margin: 37px;
+    margin-left: 0px;
+    background-color:  white;
+}
+.twoout{
+    display: flex;
+   flex-direction: row;
+    width: 592px;
+    background-color:  white;
+height: 241px;
+}
+.Hm{
+    margin: 70px;
+    width: 119.25px;
+    background-color:  white;
+height: 84px;
+}
+.Hmcontent{
+    margin: 37px;
+    margin-left: 0px;
+    background-color:  white;
+}
+.projects{
+    display: flex;
+    flex-grow: 1;
+    width: 300px;
+height: 115px;
+background-color:  white;
+margin-bottom: 10px;
+margin-left: 10px;
+margin-right: 10px;
+}
+.button {
+      border: none;
+    color: black;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 15px;
+border-radius: 5px;
+border-color: black;
+}
+#active{
+    background-color: rgb(59, 59, 219);
+}
+.recipe{
+    display: flex;
+    min-height: 568px;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(204, 199, 199);
+}
+.recipebox1 img{
+    margin: 17px;
+   
+}
+.recipebox2 img{
+    margin: 17px;
+  
+}
+.recipebox3 img{
+    margin: 17px;
+}
+.recipebox1{
+    width: 328.49px;
+height: 568px;
+flex-direction: column;
+flex-grow: 1;
+background:  white;
+border-radius: 12px;
+margin-left: 10px;
+}
+.recipebox2{
+    flex-grow: 1;
+    width: 328.49px;
+height: 568px;
+flex-direction: column;
+background:  white;
+border-radius: 12px;
+margin-left: 10px;
+}
+.recipebox3{
+    flex-grow: 1;
+    width: 328.49px;
+height: 568px;
+flex-direction: column;
+background: white;
+border-radius: 12px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+
+
+.rtext{
+    margin-left: 26px;
+    margin-top: -1px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+.butn{margin-top: 20px;
+    width: 118px;
+height: 46px;
+border: 1px solid #2F80ED;
+box-sizing: border-box;
+border-radius: 12px;
+}
+@media only screen and (max-width: 1132px) {
+  .recipe{
+      flex-direction: column;
+      
+  }
+  .para{
+    flex-shrink: 0;
+  }
+}
